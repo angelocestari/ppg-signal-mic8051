@@ -1,0 +1,26 @@
+-muwx
+-i G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\ppg.hex
+-M
+-Y
+-y
+-b HOME = 0x0000
+-b XSEG = 0x0001
+-b PSEG = 0x0001
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Program Files\SDCC\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\main.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\util.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\uart0.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\glcd.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\adc.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\eeprom.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\buzzer.rel
+G:\Meu Drive\UFMS\7º Semestre\Microcontroladores e Aplicações\ppg final\filtro.rel
+
+-e
